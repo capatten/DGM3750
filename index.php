@@ -38,8 +38,8 @@
 					<li><a href="#" class="icon fa-envelope-o"><span class="label">Email</span></a></li>
 				</ul>
 				<ul class="copyright">
-					<li>&copy; Untitled.</li><li>Credits: <a href="http://html5up.net">HTML5 UP</a></li>
-				</ul>
+					<li>&copy; 2017 Chad Patten</li>
+                </ul>
 			</footer>
 
 		<!-- Scripts -->
