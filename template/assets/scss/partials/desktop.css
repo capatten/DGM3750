@@ -1,0 +1,26 @@
+header {
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0; }
+  header div.header_logo-container {
+    float: left; }
+  header ul.social_media-list {
+    position: relative;
+    float: right; }
+  header nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden; }
+  header nav li {
+    float: right; }
+  header nav li a {
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none; }
+  header nav li a:hover {
+    background-color: #C1C1C1; }
+
+/*# sourceMappingURL=desktop.css.map */

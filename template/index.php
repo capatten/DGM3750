@@ -7,15 +7,35 @@
 		<!--[if lte IE 8]>
             <script src="assets/js/ie/html5shiv.js"></script>
         <![endif]-->
-		<link rel="stylesheet" href="assets/css/style.min.css" />
+		<link rel="stylesheet" href="assets/css/style.css" />
 	</head>
 	<body>
 		<!-- NAVIGATION -->
-			<nav>
-                <div class="top-nav">
-                    Navigation
-                </div>
+        <header>
+            <div class="header_logo-container">
+                <img src="#" alt="logo" />
+                <h1>BOM Games</h1>
+                <h2>We play to have fun. Winning is just a bonus.</h2>
+            </div>
+
+            <ul class="social_media-list">
+                <li><a href="https://www.facebook.com/"><img src="images/social_face.png"  alt=""/></a></li>
+                <li><a href="https://twitter.com/"><img src="images/social_twit.png"  alt=""/></a></li>
+
+            </ul>
+
+            <nav>
+                <ul class="desktop-nav">
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Instructions</a></li>
+                    <li><a href="#">Games</a></li>
+                    <li class="selected"><a href="#">Home</a></li>
+                </ul>
+
+                <!-- phone nav button -->
+                <button class="nav-button">Toggle Navigation</button>
             </nav>
+        </header>
 
 		<!-- Signup Form -->
 			<!--<form id="signup-form" method="post" action="#">
