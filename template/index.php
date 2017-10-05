@@ -3,11 +3,22 @@
 	<head>
 		<title>The BOM Games</title>
 		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+        <meta name="viewport" content="width=device-width, initial-scale=1"/>
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
 		<!--[if lte IE 8]>
             <script src="assets/js/ie/html5shiv.js"></script>
         <![endif]-->
+
 		<link rel="stylesheet" href="assets/css/style.css" />
+
+        <script>
+            $(document).ready(function(){
+                $(".nav-button").click(function () {
+                    $(".nav-button,.primary-nav").toggleClass("open");
+                });
+            });
+        </script>
 	</head>
 	<body>
 		<!-- NAVIGATION -->
@@ -25,15 +36,16 @@
             </ul>
 
             <nav>
-                <ul class="desktop-nav">
-                    <li><a href="#">About</a></li>
-                    <li><a href="#">Instructions</a></li>
-                    <li><a href="#">Games</a></li>
-                    <li class="selected"><a href="#">Home</a></li>
-                </ul>
-
                 <!-- phone nav button -->
-                <button class="nav-button">Toggle Navigation</button>
+                <button class="nav-button">
+                    <span>Menu</span>
+                </button>
+                <ul class="primary-nav">
+                    <li class="selected"><a href="#">Home</a></li>
+                    <li><a href="#">Games</a></li>
+                    <li><a href="#">Instructions</a></li>
+                    <li><a href="#">About</a></li>
+                </ul>
             </nav>
         </header>
 
